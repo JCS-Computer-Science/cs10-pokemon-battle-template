@@ -1,0 +1,115 @@
+.battle-row {
+	display: flex;
+}
+.player {
+	flex-direction: row-reverse;
+}
+.game-container {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Courier New", Courier, monospace;
+}
+.sprite {
+	margin: -20px;
+}
+.battle-row.player {
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.info-block {
+	width: 70px;
+}
+.info-block.right {
+	margin-left: 20px;
+}
+.info-block.left {
+	margin-right: 20px;
+}
+.hp-container {
+	border-bottom: 2px solid black;
+
+	border-radius: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-size: x-small;
+	font-weight: bolder;
+}
+.right .hp-container {
+	border-right: 2px solid black;
+	margin-right: 5px;
+	text-align: right;
+}
+.left .hp-container {
+	border-left: 2px solid black;
+	margin-left: 5px;
+}
+.bottom-box-border {
+	margin-top: 10px;
+	height: 50px;
+	background-color: black;
+	position: relative;
+
+	overflow: hidden;
+
+	clip-path: polygon(
+		0 5px,
+		5px 0,
+		139px 0,
+		100% 5px,
+		100% 45px,
+		139px 100%,
+		5px 100%,
+		0% 45px,
+		0% 5px
+	);
+}
+.bottom-box {
+	height: 46px;
+	width: 142px;
+	top: 2px;
+	left: 2px;
+	background-color: white;
+	position: absolute;
+	display: flex;
+
+	padding: 1px;
+	box-sizing: border-box;
+	overflow: hidden;
+
+	clip-path: polygon(
+		0 4px,
+		4px 0,
+		136px 0,
+		100% 4px,
+		100% 42px,
+		136px 100%,
+		4px 100%,
+		0% 42px,
+		0% 4px
+	);
+}
+.message {
+	width: 45%;
+	font-size: x-small;
+	padding: 5px;
+}
+.menu {
+	flex: 1;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	border-left: 1px solid black;
+}
+button {
+	border: none;
+	font-size: xx-small;
+	padding: 0px;
+	font-family: "Courier New", Courier, monospace;
+	background-color: white;
+}
+button:active {
+	color: rgb(170, 170, 170);
+}

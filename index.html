@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script defer src="script.js"></script>
+		<title>Pokemon Battle</title>
+	</head>
+	<body>
+		<div class="game-container">
+			<div class="battle-row opponent">
+				<div class="info-block left">
+					<div class="name">NIDORINO</div>
+					<div class="hp-container">
+						<span>HP:</span><span id="opponent-hp"></span
+						><span>/61</span>
+					</div>
+				</div>
+				<img
+					class="sprite"
+					src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+				/>
+			</div>
+			<div class="battle-row player">
+				<div class="info-block right">
+					<div class="name">GENGAR</div>
+					<div class="hp-container">
+						<span>HP:</span><span id="player-hp"></span
+						><span>/60</span>
+					</div>
+				</div>
+				<img
+					class="sprite"
+					src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/94.png"
+				/>
+			</div>
+			<div class="bottom-box-border">
+				<div class="bottom-box">
+					<div class="message">What will GENGAR do?</div>
+					<div class="menu">
+						<button>Tackle</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
