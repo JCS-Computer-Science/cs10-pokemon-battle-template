@@ -95,7 +95,7 @@
 		0% 8px
 	);
 }
-.message {
+#message {
 	width: 45%;
 	font-size: medium;
 	padding: 5px;
