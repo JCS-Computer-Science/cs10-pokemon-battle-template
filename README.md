@@ -1,5 +1,13 @@
 # Pokemon Battle Assignment
 
+## Getting Started
+
+- Download this starter code (Code -> Download Zip)
+- Unzip the folder (ask for help if you don't know what this means
+- Open the unzipped folder in VSCode
+- View the website with Live Server, look through the existing HTML to understand the structure
+- Add functionality one bit at a time, according to the Specifications below
+
 ## Specifications
 
 ### Level 0 - Developing (40%) | Basic starting point
