@@ -7,7 +7,7 @@
 - set starting HP for both pokemon in DOM
 - on "Attack" button click
   - subtract 5HP from opponent HP, update opponent HP in DOM
-  - if opponent HP is 0 or less, display "NIDORINO fainted!"
+  - if opponent HP is 0 or less, display "NIDORINO fainted!" in message box
 
 ### Level 1 - Basic (55%) | Bare minimum game
 
