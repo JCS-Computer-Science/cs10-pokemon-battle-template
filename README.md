@@ -43,7 +43,6 @@ Possible options to continue expanding/improving
 - Add move animations
 - Animate the message text writing, hide the attack options when showing a message
 - Add HP bars that show the % of remaining HP, change colors at certain values
-- Style the elements to look more similar to original game
 - Add pokemon and move types (fire, water, etc) and change damage amounts for certain combinations
   - eg fire attack on water pokemon does double damage
   - eg water attack on fire pokemon does 50% damage
