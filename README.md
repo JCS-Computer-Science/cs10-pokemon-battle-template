@@ -19,8 +19,7 @@
 
 ### Level 1 - Basic (55%) | Bare minimum game
 
-- Keep track of which player's turn it is, only allow attack from current player
-  - either hide/show attack buttons or disable/enable them
+- Keep track of which player's turn it is, lower HP of opposite pokemon
 - Update message box after each action
   - eg. "GENGAR used tackle"
 
